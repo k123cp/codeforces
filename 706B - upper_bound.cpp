@@ -10,6 +10,7 @@ int main()
     cin >> n;
     for( int i = 0; i < n; i++ )
         cin >> x[i];
+    sort(x, x+n);
     cin >> m;
     for( int i = 0; i < m; i++ )
     {
